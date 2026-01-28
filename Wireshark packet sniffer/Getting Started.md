@@ -35,6 +35,13 @@ A hardware or software component that connects a device to a network, enabling c
 
 The goal is to create network traffic that can be easily analyzed, specifically focusing on HTTP rather than HTTPS.
 
+
+  **kali@kali:~$**
+  ```javascript
+  curl -4 --http1.1 http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html
+  ```
+
+
 1) Open **Command Prompt** 
 
 ## Be familiar with basic filtering techniques and packet analysis.
