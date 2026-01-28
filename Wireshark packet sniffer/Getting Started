@@ -1,1 +1,16 @@
+# Getting Started with Wireshark
 
+The objective of this exercise is to gain a foundational understanding of the Wireshark packet sniffer, packet capture, and protocol analysis. 
+
+## Understand how to capture packets using Wireshark
+
+**What is Wireshark?** Wireshark is a widely used open-source network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network.  It supports a wide range of protocols, allowing users to dissect packet details and understand their interactions. 
+
+  
+
+
+## Be familiar with basic filtering techniques and packet analysis.
+
+## Comprehend the encapsulation of protocols (HTTP within TCP within IP within Ethernet/WiFi).
+
+## Be capable of identifying different protocols in captured network traffic.
