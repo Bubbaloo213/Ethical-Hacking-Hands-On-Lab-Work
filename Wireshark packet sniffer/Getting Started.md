@@ -6,12 +6,9 @@ The objective of this exercise is to gain a foundational understanding of the Wi
 
 <details>
   <summary>What is Wireshark?</summary>
+  Heading Wireshark is a widely used open-source network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network.  It supports a wide range of protocols, allowing users to dissect packet details and understand their interactions. 
 
-  ### Heading Wireshark is a widely used open-source network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network.  It supports a wide range of protocols, allowing users to dissect packet details and understand their interactions. 
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+</details>
 
  
 
