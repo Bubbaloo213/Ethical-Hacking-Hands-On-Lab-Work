@@ -24,11 +24,11 @@ A hardware or software component that connects a device to a network, enabling c
   <img width="1661" height="718" alt="image" src="https://github.com/user-attachments/assets/3a3747a3-9f0c-4aa7-8ee4-6e09817c0284" />
 
 ### Capture your first packets
-1) Start your web browser and let it display your homepage
+3) Start your web browser and let it display your homepage
 
   <img width="831" height="461" alt="image" src="https://github.com/user-attachments/assets/c300eb4f-f4c2-4ef7-a7f8-1722c2e505cf" />
 
-2) Return to Wireshark, select **Capture** > **Options** that will direct you to the **Wireshark - Capture Options** screen. Select the correct network interface that is actively sending or receiving data. Select **Start** to begin capturing packets.
+4) Return to Wireshark, select **Capture** > **Options** that will direct you to the **Wireshark - Capture Options** screen. Select the correct network interface that is actively sending or receiving data. Select **Start** to begin capturing packets.
 
   <img width="1023" height="727" alt="image" src="https://github.com/user-attachments/assets/07677b91-17d9-4361-b0bb-8d00c49d993c" />
 
@@ -41,7 +41,7 @@ The goal is to create network traffic that can be easily analyzed, specifically 
               CURL is a command-line tool that allows users to make network requests. It is preferred here because modern web browsers often use HTTPS (which encrypts data) and may use IPv6 (which can complicate analysis).
 </details>
 
-1) Open **Command Prompt** and execute this CURL command:
+5) Open **Command Prompt** and execute this CURL command:
 
   ```javascript
   curl -4 --http1.1 http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html
@@ -53,17 +53,17 @@ The goal is to create network traffic that can be easily analyzed, specifically 
 
 ## Be familiar with basic filtering techniques and packet analysis.
 
-1) Return to Wireshark and select **Stop** (red square button)
+6) Return to Wireshark and select **Stop** (red square button)
 
   <img width="1355" height="729" alt="image" src="https://github.com/user-attachments/assets/00f28e0c-9f4f-47a6-8714-e957291b15b0" />
 
-2) Apply **HTTP** filter:
+7) Apply **HTTP** filter:
 
   <img width="1024" height="320" alt="image" src="https://github.com/user-attachments/assets/067abc4e-5991-477f-85f2-4bed62efb485" />
 
 * Only HTTP messages will now be displayed
    
-3) Select the **HTTP GET** request ot gaia.cs.umass.edu
+8) Select the **HTTP GET** request ot gaia.cs.umass.edu
 
    <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/16ce56af-3a25-4fea-94f3-14ceaf234ca3" />
 
