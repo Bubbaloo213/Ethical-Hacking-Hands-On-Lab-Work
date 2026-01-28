@@ -4,6 +4,16 @@ The objective of this exercise is to gain a foundational understanding of the Wi
 
 ## Understand how to capture packets using Wireshark
 
+<details>
+  <summary>Click me</summary>
+
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+
   <summary>**What is Wireshark?**</summary>
 
   ### Heading
