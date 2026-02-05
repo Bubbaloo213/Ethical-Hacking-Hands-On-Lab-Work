@@ -4,12 +4,44 @@
 
 ### Start Wireshark Capture
 
-1. Start Wireshark (don't start capture yet)
-2. Enter display filter: http (lowercase, no quotes). This filter is to show only HTTP messages after capture
-3. Select **Capture** > **Options** > Select on the active interface (Ethernet0) > **Start** Wireshark packet capture
+1) Start Wireshark (don't start capture yet)
+2) Enter display filter: http (lowercase, no quotes). This filter is to show only HTTP messages after capture
+3) Select **Capture** > **Options** > Select on the active interface (Ethernet0) > **Start** Wireshark packet capture
   
   <img width="964" height="612" alt="image" src="https://github.com/user-attachments/assets/365e2f5b-2ae2-4cdc-bb02-7319049cd26b" />
 
 ### Make HTTP Request
 
-4. Open a terminal
+4) Open **Command Prompt** and execute this CURL command:
+
+  ```javascript
+  curl --http1.1 -4 -o HTTP-wireshark-file1.html -H "Accept-Language: en-US,en;q=0.9" http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html
+  ```
+
+  <img width="980" height="297" alt="image" src="https://github.com/user-attachments/assets/ddc4aeb1-5d27-4a9d-9fea-45177fed7d30" />
+
+5) Stop Wireshark capture immediately after CURL completes
+
+### Analyze in Wireshark
+6) You should see two HTTP messages:
+      * GET request (from your machine to server)
+      * HTTP OK response (from server to you)
+
+7) Click on the HTTP Get Message and answer the following questions:
+   * Based on your inspection in Wireshark, are we running HTTP version 1.0 or 1.1? **ANSWER:** 1.1
+   * Based on your Wireshark inspection, what language does your host indicate that it can accept to the server?  List one of the values listed in the Accept-Language field. **ANSWER:** en-us
+   * What is the IP address of your computer? **ANSWER:** 192.168.238.131
+
+    <img width="1661" height="521" alt="image" src="https://github.com/user-attachments/assets/b93d01d8-f9f7-48cf-a351-bfd59f97bd43" />
+
+8) Click on the Response Message and answer the following questions:
+    * What version of HTTP is the server running? **ANSWER:** 1.1
+    * What is the IP address of the gaia.cs.umass.edu server? **ANSWER:** 128.119.245.12
+    * What is the status code returned from the server to your host? **ANSWER:** 200
+    * When was the HTML file that you are retrieving last modified at the server? **ANSWER:** Tue, 28 Oct 2025 05:59:01 GMT
+    *  How many bytes of content were returned to your host according to the Content-Length field in the response record? **ANSWER:** 128
+  
+      <img width="1661" height="800" alt="image" src="https://github.com/user-attachments/assets/88193c6d-a543-416e-b42a-b1447f062706" />
+
+
+   
