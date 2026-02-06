@@ -1,6 +1,8 @@
 # Retrieving Long Documents
 
-The objective of this exercise is to compare the first request (where the resource is fetched for the first time) with the second request (where the browser checks if the cached version is still valid). This comparison will show how the freshness validators (If-Modified-Since and If-None-Match) affect the server's response and the amount of data transferred.
+The objective of this exercise is to analyze how when you send a request or receive a response using HTTP, that data might be too large to fit into a single TCP segment. So, TCP splits the data into smaller segments to send it over the network.
+
+When Wireshark sees that a single HTTP response is too large for one TCP segment, it marks those segments as “TCP segment of a reassembled PDU” (Protocol Data Unit). This means that Wireshark recognizes that these segments belong to the same larger message.
 
 <details>
   <summary> ** What is HTTP? ** </summary>
@@ -9,13 +11,17 @@ The objective of this exercise is to compare the first request (where the resour
 </details>
 
 <details>
-  <summary> ** Did You Know? ** </summary>
+  <summary> ** What is TCP? ** </summary>
               TCP (Transmission Control Protocol) is a protocol that ensures reliable communication between computers over a network. It breaks down data into smaller pieces (called segments) for transmission.
 
 </details>
 
-## 
+## Capture Large File Transfer
 
+1) Clear previous capture and start Wireshark as new
+2) Run
+
+## Answer the Below Questions
 
 * How many HTTP GET request messages did your host send? **ANSWER:** 1
 
