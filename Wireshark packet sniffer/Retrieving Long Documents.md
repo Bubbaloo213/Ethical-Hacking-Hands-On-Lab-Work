@@ -21,6 +21,16 @@ When Wireshark sees that a single HTTP response is too large for one TCP segment
 1) Clear previous capture and start Wireshark as new
 2) Run
 
+```javascript
+    curl --http1.1 -4 -o HTTP-wireshark-file3.html http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html
+  ```
+<br />
+
+<img width="975" height="240" alt="image" src="https://github.com/user-attachments/assets/2d4708a3-65f5-4e82-8d3c-aa3210ce3e8f" style="width:75%; height:auto;">
+
+
+3) **Stop** catpure after completion
+
 ## Answer the Below Questions
 
 * How many HTTP GET request messages did your host send? **ANSWER:** 1
