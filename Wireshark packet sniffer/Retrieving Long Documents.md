@@ -26,7 +26,7 @@ When Wireshark sees that a single HTTP response is too large for one TCP segment
   ```
 <br />
 
-<img width="975" height="240" alt="image" src="https://github.com/user-attachments/assets/2d4708a3-65f5-4e82-8d3c-aa3210ce3e8f" style="width:75%; height:auto;">
+  <img width="975" height="240" alt="image" src="https://github.com/user-attachments/assets/2d4708a3-65f5-4e82-8d3c-aa3210ce3e8f" style="width:75%; height:auto;">
 
 
 3) **Stop** catpure after completion
