@@ -2,6 +2,18 @@
 
 The objective of this exercise is to compare the first request (where the resource is fetched for the first time) with the second request (where the browser checks if the cached version is still valid). This comparison will show how the freshness validators (If-Modified-Since and If-None-Match) affect the server's response and the amount of data transferred.
 
+<details>
+  <summary> ** What is HTTP? ** </summary>
+              HTTP (Hypertext Transfer Protocol) is a protocol used for transferring data over the web. When you visit a website, your browser uses HTTP to request and receive data (like HTML files, images, etc.).
+
+</details>
+
+<details>
+  <summary> ** Did You Know? ** </summary>
+              TCP (Transmission Control Protocol) is a protocol that ensures reliable communication between computers over a network. It breaks down data into smaller pieces (called segments) for transmission.
+
+</details>
+
 ## 
 
 
