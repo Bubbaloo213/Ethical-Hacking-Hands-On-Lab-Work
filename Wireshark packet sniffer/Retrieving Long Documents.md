@@ -29,7 +29,7 @@ When Wireshark sees that a single HTTP response is too large for one TCP segment
   <img width="975" height="240" alt="image" src="https://github.com/user-attachments/assets/2d4708a3-65f5-4e82-8d3c-aa3210ce3e8f" style="width:75%; height:auto;">
 
 
-3) **Stop** catpure after completion
+3) **Stop** capture after completion
 
 ## Answer the Below Questions
 
@@ -45,6 +45,10 @@ When Wireshark sees that a single HTTP response is too large for one TCP segment
 
   <img width="1661" height="796" alt="image" src="https://github.com/user-attachments/assets/de79cb6f-e2ec-497d-83a3-b31318171df9" style="width:75%; height:auto;">
 
-* What is the status code and Phrase in the response?  Do not include \r\n in your answer.
+* What is the status code and Phrase in the response? **ANSWER:** 200 OK
+  
+  <img width="1661" height="797" alt="image" src="https://github.com/user-attachments/assets/157cc047-8d29-4abf-abf1-b808697393f5" style="width:75%; height:auto;">
 
-* How many data-containing TCP segments were needed to carry the single HTTP response and the text of the Bill of Rights?
+* How many data-containing TCP segments were needed to carry the single HTTP response and the text of the Bill of Rights? **ANSWER:** 4
+
+  <img width="1661" height="793" alt="image" src="https://github.com/user-attachments/assets/76da2d08-6f30-4449-9d30-3be59aad3835" />
