@@ -51,4 +51,4 @@ When Wireshark sees that a single HTTP response is too large for one TCP segment
 
 * How many data-containing TCP segments were needed to carry the single HTTP response and the text of the Bill of Rights? **ANSWER:** 4
 
-  <img width="1661" height="793" alt="image" src="https://github.com/user-attachments/assets/76da2d08-6f30-4449-9d30-3be59aad3835" />
+  <img width="1661" height="793" alt="image" src="https://github.com/user-attachments/assets/76da2d08-6f30-4449-9d30-3be59aad3835" style="width:75%; height:auto;">
