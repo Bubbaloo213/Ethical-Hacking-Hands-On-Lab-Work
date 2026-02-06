@@ -1,5 +1,7 @@
 # Retrieving Long Documents
 
+The objective of this exercise is to compare the first request (where the resource is fetched for the first time) with the second request (where the browser checks if the cached version is still valid). This comparison will show how the freshness validators (If-Modified-Since and If-None-Match) affect the server's response and the amount of data transferred.
+
 ## 
 
 
