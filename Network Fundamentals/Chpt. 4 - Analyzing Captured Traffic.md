@@ -3,6 +3,7 @@
 The objective of this exercise is to know how an attacker can use Wireshark to steal private data from the unencrypted packets intercepted in an ARP spoofing attack. This is to proof why it's so important to ensure that your web traffic is encrypted using HTTPs. 
 
 ## Manually obtain the IP address of the Metasploitable Web Server
+
 ** Note: These next steps are to be executed in the Metasploitable Web Server machine
 
 1. Within command prompt, run the following commands:
@@ -16,7 +17,9 @@ The objective of this exercise is to know how an attacker can use Wireshark to s
   <br />
   <img width="720" height="200" alt="image" src="https://github.com/user-attachments/assets/30d519da-f3f2-4a76-a094-1b0f30f988a0" />
   <br />
+  
 ## Wireshark Packet Cature Process
+
 ** Note: These next steps are to be executed in the Kali Linux machine
 
 2. Within Wireshark, start the packet capture process by clicking the icon.
@@ -53,6 +56,7 @@ The objective of this exercise is to know how an attacker can use Wireshark to s
 </details>
 
 ## Wireshark reassembles the packets from a packet stream and recover the original file. 
+
 7. Click a packet and select **Follow > TCP Stream**
    <br />
   <img width="1075" height="482" alt="image" src="https://github.com/user-attachments/assets/3e15de2d-dd8e-4e60-8304-588293f6f3dc" />
