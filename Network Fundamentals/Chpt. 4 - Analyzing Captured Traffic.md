@@ -1,5 +1,7 @@
 # Analyzing Captured Traffic
 
+The objective of this exercise is to know how an attacker can use Wireshark to steal private data from the unencrypted packets intercepted in an ARP spoofing attack. This is to proof why it's so important to ensure that your web traffic is encrypted using HTTPs. 
+
 ## Manually obtain the IP address of the Metasploitable Web Server
 ** Note: These next steps are to be executed in the Metasploitable Web Server machine
 
