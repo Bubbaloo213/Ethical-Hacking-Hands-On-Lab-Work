@@ -9,7 +9,7 @@
   ```javascript
   ifconfig eth0
   ```
-
+<br />
   <img width="723" height="178" alt="image" src="https://github.com/user-attachments/assets/6efa676b-c2e9-45f5-9ad5-2fe8ddedbdab" />
 
 
