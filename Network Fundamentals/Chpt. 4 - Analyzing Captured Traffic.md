@@ -29,7 +29,7 @@ The objective of this exercise is to know how an attacker can use Wireshark to s
    <br />
 4. Within Wireshark, click the red stop icon to end the capture.
    <br />
-  <img width="1276" height="133" alt="image" src="https://github.com/user-attachments/assets/c12fb8d8-673e-4eb7-85de-becbbb67c339" />
+   <img width="1276" height="133" alt="image" src="https://github.com/user-attachments/assets/c12fb8d8-673e-4eb7-85de-becbbb67c339" />
    <br />
 
 ## Analyzing Captured Traffic
