@@ -5,6 +5,8 @@
 
 1. Within command prompt, run the following commands:
 
+<br />
+
   **msfadmin@metasploitable:~$**
   ```javascript
   ifconfig eth0
