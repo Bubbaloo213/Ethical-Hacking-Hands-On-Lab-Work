@@ -23,14 +23,19 @@ The objective of this exercise is to know how an attacker can use Wireshark to s
 ** Note: These next steps are to be executed in the Kali Linux machine
 
 2. Within Wireshark, start the packet capture process by clicking the icon.
+   
    <br />
    <img width="1280" height="150" alt="image" src="https://github.com/user-attachments/assets/8a14ef55-f8f2-48ac-89ac-1e1d71735969" />
    <br />
-3. We will pretend to be the victim and generate packets by opening the Firefox browser and entering the  Metasploitable Web Server's IP address into the address bar.
+   
+4. We will pretend to be the victim and generate packets by opening the Firefox browser and entering the  Metasploitable Web Server's IP address into the address bar.
+   
    <br />
    <img width="552" height="489" alt="image" src="https://github.com/user-attachments/assets/63531a94-c3e4-413b-bff9-7022e4e5d269" />
    <br />
-4. Within Wireshark, click the red stop icon to end the capture.
+   
+6. Within Wireshark, click the red stop icon to end the capture.
+   
    <br />
    <img width="1276" height="133" alt="image" src="https://github.com/user-attachments/assets/c12fb8d8-673e-4eb7-85de-becbbb67c339" />
    <br />
@@ -38,6 +43,7 @@ The objective of this exercise is to know how an attacker can use Wireshark to s
 ## Analyzing Captured Traffic
 
 5. Within Wireshark, filter so that you only view the packets that have been sent to the Metasploitable web server.
+   
    <br />
    <img width="1290" height="645" alt="image" src="https://github.com/user-attachments/assets/b9d1f015-a7bd-44af-aa9d-c3a70d735bd0" />
    <br />
@@ -45,6 +51,7 @@ The objective of this exercise is to know how an attacker can use Wireshark to s
 ## Identify the TCP packets trnasmitted between the Kali Linux Machine and the Metasploitable web server.
    
 6. Righ-click one of the packets with the desitnation address of the Metasploitable web server and select **Conversation Filter > TCP**.
+   
    <br />
    <img width="1087" height="518" alt="image" src="https://github.com/user-attachments/assets/46edc403-595c-429c-8c27-ebc1d7dcf6f1" />
    <br />
@@ -58,10 +65,13 @@ The objective of this exercise is to know how an attacker can use Wireshark to s
 ## Wireshark reassembles the packets from a packet stream and recover the original file. 
 
 7. Click a packet and select **Follow > TCP Stream**
+   
    <br />
   <img width="1075" height="482" alt="image" src="https://github.com/user-attachments/assets/3e15de2d-dd8e-4e60-8304-588293f6f3dc" />
    <br />
-8. You should see the HTML corresponding to the page.
+   
+9. You should see the HTML corresponding to the page.
+    
    <br />
    <img width="1280" height="641" alt="image" src="https://github.com/user-attachments/assets/1c0d34b0-6f5d-4f82-b86b-8afaf251424b" />
    <br />
