@@ -1,4 +1,4 @@
-# Analyzing Packets Collected by Your Firewall using TCPDump
+# Viewing Packets in TCPDump Collected by the Firewall
 
 The objective of this exercise is to use Wireshark and tcpdump to determine if your newtork is being hacked. 
 
