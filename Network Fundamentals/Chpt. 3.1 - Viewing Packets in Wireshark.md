@@ -1,4 +1,4 @@
-# Analyzing Captured Traffic
+# Viewing Packets in Wireshark
 
 The objective of this exercise is to know how an attacker can use Wireshark to steal private data from the unencrypted packets intercepted in an ARP spoofing attack. This is to proof why it's so important to ensure that your web traffic is encrypted using HTTPs. 
 
