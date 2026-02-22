@@ -12,8 +12,7 @@
   ifconfig eth0
   ```
 <br />
-  <img width="723" height="178" alt="image" src="https://github.com/user-attachments/assets/6efa676b-c2e9-45f5-9ad5-2fe8ddedbdab" />
-
+  <img width="720" height="200" alt="image" src="https://github.com/user-attachments/assets/30d519da-f3f2-4a76-a094-1b0f30f988a0" />
 
 ### Wireshark Packet Cature Process
 ** Note: These next steps are to be executed in the Kali Linux machine
