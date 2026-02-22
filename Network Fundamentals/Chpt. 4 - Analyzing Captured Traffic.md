@@ -11,16 +11,16 @@
   ```javascript
   ifconfig eth0
   ```
-<br />
+  <br />
   <img width="720" height="200" alt="image" src="https://github.com/user-attachments/assets/30d519da-f3f2-4a76-a094-1b0f30f988a0" />
-
+  <br />
 ## Wireshark Packet Cature Process
 ** Note: These next steps are to be executed in the Kali Linux machine
 
 2. Within Wireshark, start the packet capture process by clicking the icon.
    <br />
    <img width="1280" height="150" alt="image" src="https://github.com/user-attachments/assets/8a14ef55-f8f2-48ac-89ac-1e1d71735969" />
-<br />
+   <br />
 3. We will pretend to be the victim and generate packets by opening the Firefox browser and entering the  Metasploitable Web Server's IP address into the address bar.
    <br />
    <img width="552" height="489" alt="image" src="https://github.com/user-attachments/assets/63531a94-c3e4-413b-bff9-7022e4e5d269" />
@@ -43,7 +43,19 @@
    <br />
    <img width="1087" height="518" alt="image" src="https://github.com/user-attachments/assets/46edc403-595c-429c-8c27-ebc1d7dcf6f1" />
    <br />
-   
-8. w
 
+   <details>
+  <summary> ** Why are there so many packets if all we did was load a single web page? ** </summary>
+              This happens because the server breaks the web page into smaller pieces and then transmits them as spearate packets if a file is too large to be transmitted in a single packet. The recipient will reassemble these packets to recover the original file.  
 
+</details>
+
+## Wireshark reassembles the packets from a packet stream and recover the original file. 
+7. Click a packet and select **Follow > TCP Stream**
+   <br />
+  <img width="1075" height="482" alt="image" src="https://github.com/user-attachments/assets/3e15de2d-dd8e-4e60-8304-588293f6f3dc" />
+   <br />
+8. You should see the HTML corresponding to the page.
+   <br />
+   <img width="1280" height="641" alt="image" src="https://github.com/user-attachments/assets/1c0d34b0-6f5d-4f82-b86b-8afaf251424b" />
+   <br />
