@@ -1,29 +1,20 @@
-# Analyzing Packets Collected by Your Firewall
+# Analyzing Packets Collected by Your Firewall using TCPDump
 
 The objective of this exercise is to use Wireshark and tcpdump to determine if your newtork is being hacked. 
 
-## Manually obtain the IP address of the Metasploitable Web Server
-
-** Note: These next steps are to be executed in the Metasploitable Web Server machine
-
-1. Within command prompt, run the following commands:
-
-<br />
-
-  **msfadmin@metasploitable:~$**
-  ```javascript
-  ifconfig eth0
-  ```
-  <br />
-  <img width="720" height="200" alt="image" src="https://github.com/user-attachments/assets/30d519da-f3f2-4a76-a094-1b0f30f988a0" />
-  <br />
-  
-## Wireshark Packet Cature Process
+## Capturing Traffic on Port 80
 
 ** Note: These next steps are to be executed in the Kali Linux machine
 
-2. Within Wireshark, start the packet capture process by clicking the icon.
+1. Open Firefox browser and navigate to ***http://cs.virginia.edu***
+
+** Note: These next steps are to be executed in the pfSense firewall
+
+2. Start the shell option by entering 8
+  <br />
+  <img width="727" height="406" alt="image" src="https://github.com/user-attachments/assets/e779ed72-a45b-4942-afc5-6c867157af98" />
+  <br />
    
-   <br />
-   <img width="1280" height="150" alt="image" src="https://github.com/user-attachments/assets/8a14ef55-f8f2-48ac-89ac-1e1d71735969" />
-   <br />
+3. Similar to Wireshark, you can capture packets in tcpdump.
+
+   <img width="888" height="469" alt="image" src="https://github.com/user-attachments/assets/5740ac24-e5b3-42bd-bd7d-b5225b0b8283" />
