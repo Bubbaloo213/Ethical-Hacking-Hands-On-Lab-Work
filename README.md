@@ -1,4 +1,4 @@
-- <b>Projects based on Ethical Hacking Principles from Daniel Graham's ***Ethical Hacking: A Hands-on Introduction to Breaking In*** book
+<b>Projects based on Ethical Hacking Principles from Daniel Graham's ***Ethical Hacking: A Hands-on Introduction to Breaking In*** book
   <br />
    Chapter 1
   - [Exploiting a Backdoor in Metasploitable server (Victim Machine)](https://github.com/ealvarezabasto/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20Fundamentals/Chpt.%201%20-%20Exploiting%20a%20Backdoor%20in%20Metasploitable.md)
