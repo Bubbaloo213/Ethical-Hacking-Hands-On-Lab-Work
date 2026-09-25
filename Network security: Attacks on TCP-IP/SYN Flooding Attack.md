@@ -1,6 +1,6 @@
-# Getting Started with Wireshark
+# SYN Flooding Attack
 
-The objective of this exercise is to gain a foundational understanding of the Wireshark packet sniffer, packet capture, and protocol analysis. 
+The objective of this exercise is to flooding the server with fake SYN packets.
 
 ## Assumptions
 - In this lab, we have three machines
