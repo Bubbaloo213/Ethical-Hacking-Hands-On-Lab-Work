@@ -57,7 +57,7 @@ The objective of this exercise is to create one forged TCP RST (Reset) packet th
 
 <img width="1054" height="798" alt="image" src="https://github.com/user-attachments/assets/a5a4b911-b541-437f-85cd-03ff1e438bf3" />
 
-9) Narrow it further. Once you see traffic, use:
+9) Narrow it further to only show TCP port 23 packets going from User 1 to the Victim.. Once you see traffic, use:
 
   ```javascript
   ip.src == 10.9.0.6 && ip.dst == 10.9.0.5 && tcp.port == 23
