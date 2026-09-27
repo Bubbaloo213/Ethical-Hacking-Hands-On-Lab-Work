@@ -122,7 +122,7 @@ Ctrl + X
   sudo python3 /home/seed/tcprst.py
   ```
 
-Conclusion:
+Conclusion: Successfully executed TCP RST Attack. Telnet Connection broke.
 
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/9a5d7554-fde8-4f3a-b661-8056f19462d4" />
 
