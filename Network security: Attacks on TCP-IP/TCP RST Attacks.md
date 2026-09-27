@@ -58,6 +58,7 @@ The TCP RST Attack can terminate an established TCP connection between two victi
 
 <img width="1054" height="798" alt="image" src="https://github.com/user-attachments/assets/a5a4b911-b541-437f-85cd-03ff1e438bf3" />
 
+
 9) Narrow it further to only show TCP port 23 packets going from User 1 to the Victim.. Once you see traffic, use:
 
   ```javascript
@@ -65,9 +66,7 @@ The TCP RST Attack can terminate an established TCP connection between two victi
   ```
 
 
-10) Next, select any from the established Telnet connection going from User 1 (10.9.0.6) to the Victim (10.9.0.5).
-
-<img width="1230" height="805" alt="image" src="https://github.com/user-attachments/assets/0cb752c4-bd8d-41fb-8ac4-123dceafd554" />
+10) Next, select the last packet from the established Telnet connection going from User 1 (10.9.0.6) to the Victim (10.9.0.5).
 
 ### Create your RST packet
 
@@ -104,6 +103,9 @@ ls(pkt)
 send(pkt, verbose=0)
   ```
 
+<img width="1596" height="898" alt="image" src="https://github.com/user-attachments/assets/41a82d0a-9f92-4798-88e5-016b9613822b" />
+
+
 13) Save it with 
 
   ```javascript
@@ -114,21 +116,13 @@ Ctrl + X
   ```
 
 
-14) Back in the VM terminal, run:
-
-  ```javascript
-  ls -l /home/seed/tcprst.py
-  ```
-
-<img width="631" height="83" alt="image" src="https://github.com/user-attachments/assets/072213a4-c269-4357-a36d-01ef4152a28d" />
-
-
-15) Because Scapy needs permission to send a crafted packet, run:
+14) Back in the VM terminal, because Scapy needs permission to send a crafted packet, run:
 
   ```javascript
   sudo python3 /home/seed/tcprst.py
   ```
 
-<img width="788" height="579" alt="image" src="https://github.com/user-attachments/assets/1d901c70-ecf3-4194-a674-a1a7a51a25cb" />
+Conclusion:
 
-16) 
+<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/9a5d7554-fde8-4f3a-b661-8056f19462d4" />
+
