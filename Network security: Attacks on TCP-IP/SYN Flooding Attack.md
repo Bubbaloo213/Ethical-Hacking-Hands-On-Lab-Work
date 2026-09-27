@@ -4,6 +4,7 @@ The objective of this exercise is to flooding the server with fake SYN packets.
 
 ## Assumptions
 - In this lab, we have three machines
+       
       - 1 attacker machine: seed-attacker
       - 1 victim machine: IP Address - 10.9.0.5
       - 1 user machine: IP address - 10.9.0.6
