@@ -122,10 +122,34 @@ Ctrl + X
 14) Back in the VM terminal, because Scapy needs permission to send a crafted packet, run:
 
   ```javascript
-  sudo python3 /home/seed/tcprst.py
+  sudo python3 /home/seed/task3.py
   ```
 
-Conclusion: Successfully executed TCP RST Attack. Telnet Connection broke.
 
-<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/9a5d7554-fde8-4f3a-b661-8056f19462d4" />
+### Return to Victim Machine (10.9.0.5)
 
+15) Go to the terminal on Victim 10.9.0.5 and run:
+
+
+  ```javascript
+ls -l /tmp/task3.txt
+  ```
+16) Followed by:
+
+  ```javascript
+cat /tmp/task3.txt
+  ```
+
+17) Result should appear as HIJACKED
+
+<img width="786" height="160" alt="image" src="https://github.com/user-attachments/assets/7dae4642-4e79-4f2a-8036-bd7aabefe491" />
+
+
+Conclusion: Task 3 attack worked.
+Summary: 
+
+* User 1 (10.9.0.6) had an existing Telnet session with the Victim (10.9.0.5).
+* On seed-attacker, you created a forged TCP packet that claimed to be from User 1. This packet contained the following command: **echo HIJACKED > /tmp/task3.txt**
+* Wireshark showed: **TCP Segment Len: 31** and displayed: **HIJACKED**
+* Most importantly, you then checked the Victim (10.9.0.5) and found /tmp/task3.txt containing: **HIJACKED**
+* This proves that the Victim actually processed the data you injected into the existing TCP/Telnet session.
