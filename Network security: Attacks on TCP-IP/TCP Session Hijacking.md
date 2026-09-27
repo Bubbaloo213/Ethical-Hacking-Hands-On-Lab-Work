@@ -153,3 +153,5 @@ Summary:
 * Wireshark showed: **TCP Segment Len: 31** and displayed: **HIJACKED**
 * Most importantly, you then checked the Victim (10.9.0.5) and found /tmp/task3.txt containing: **HIJACKED**
 * This proves that the Victim actually processed the data you injected into the existing TCP/Telnet session.
+
+<img width="1597" height="897" alt="image" src="https://github.com/user-attachments/assets/a0541038-c9a3-4cfb-87f7-38c34bd5a437" />
