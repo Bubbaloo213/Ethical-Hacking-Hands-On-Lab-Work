@@ -28,6 +28,17 @@ Offensive and defensive security labs completed in isolated, authorized environm
 
 | 4 | [Creating a Reverse Shell via TCP Session Hijacking](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security%3A%20Attacks%20on%20TCP-IP/4.%20Creating%20Reverse%20Shell%20using%20TCP%20Session%20Hijacking.md)
 
+
+#### Packet Sniffing and Spoofing Labs
+
+| 5 | [Packet Sniffing and Spoofing]
+
+| 6 | [Spoofing ICMP Packets]
+
+| 7 | [Fully-automated Traceroute]
+
+| 8 | [Sniffing and-then Spoofing]
+
 ### 🦈 Wireshark Packet Analysis
 
 | # | Labs |
