@@ -14,19 +14,19 @@ Offensive and defensive security labs completed in isolated, authorized environm
 
 | 3 | [Viewing Packets in Wireshark](https://github.com/ealvarezabasto/Ethical-Hacking-Hands-On-Lab-Work/edit/main/Network%20Fundamentals/Chpt.%203%20-%20Viewing%20Packets%20in%20Wireshark.md) · [Viewing Packets in TCPDump Collected by the Firewall](https://github.com/ealvarezabasto/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20Fundamentals/Chpt.%203.2%20-%20Analyzing%20Packets%20Collected%20by%20Your%20Firewall.md)
 
-### ⚔️ Network Security: Attacks on TCP/IP
+### ⚔️ Network Security
 
 | # | Lab |
 
-|---|---|
+### TCP Attacks
 
-| 1 | SYN Flooding Attack |
+| 1 | [SYN Flooding Attack](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security%3A%20Attacks%20on%20TCP-IP/1.%20SYN%20Flooding%20Attack.md)
 
-| 2 | TCP Session Hijacking |
+| 2 | [TCP RST Attacks](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security%3A%20Attacks%20on%20TCP-IP/2.%20TCP%20RST%20Attacks.md)
 
-| 3 | TCP RST Attacks |
+| 3 | [TCP Session Hijacking](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security%3A%20Attacks%20on%20TCP-IP/3.%20TCP%20Session%20Hijacking.md)
 
-| 4 | Creating a Reverse Shell via TCP Session Hijacking |
+| 4 | [Creating a Reverse Shell via TCP Session Hijacking](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security%3A%20Attacks%20on%20TCP-IP/4.%20Creating%20Reverse%20Shell%20using%20TCP%20Session%20Hijacking.md)
 
 ### 🦈 Wireshark Packet Analysis
 
