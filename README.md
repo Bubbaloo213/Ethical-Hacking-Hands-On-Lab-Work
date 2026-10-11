@@ -14,6 +14,27 @@ Offensive and defensive security labs completed in isolated, authorized environm
 
 | 3 | [Viewing Packets in Wireshark](https://github.com/ealvarezabasto/Ethical-Hacking-Hands-On-Lab-Work/edit/main/Network%20Fundamentals/Chpt.%203%20-%20Viewing%20Packets%20in%20Wireshark.md) · [Viewing Packets in TCPDump Collected by the Firewall](https://github.com/ealvarezabasto/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20Fundamentals/Chpt.%203.2%20-%20Analyzing%20Packets%20Collected%20by%20Your%20Firewall.md)
 
+
+
+### 🦈 Wireshark Packet Analysis
+
+| # | Labs |
+
+| 1 | [Getting Started](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/1.%20Getting%20Started.md)
+
+| 2 | [Basic HTTP GET/Response](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/2.%20Basic%20HTTP%20GET%20Response%20Interaction.md) 
+
+| 3 | [Conditional GET/Response to check if a Cached File has changed](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/3.%20Conditional%20GET%20Response.md) 
+
+| 4 | [ Analyzing HTTP GET Requests and TCP Packet Flow](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/4.%20Retrieving%20Long%20Documents.md)
+
+| 5 | [How a Browser Loads a Web Page: Analyzing HTTP GET Requests](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/5.%20HTML%20with%20Embedded%20Objects.md)
+
+| 6 | [Understanding HTTP 401 Authentication and Basic Authorization](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/6.%20HTTP%20Authentication.md)
+
+| 7 | [Analyzing DNS Traffic](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/7.%20DNS%20Lab.md)
+
+
 ### ⚔️ Network Security
 
 | # | Lab |
@@ -38,21 +59,3 @@ Offensive and defensive security labs completed in isolated, authorized environm
 | 7 | [Fully-Automated Traceroute: Using Scapy to automatically identify the routers that packets pass through to reach their destination](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security:%20Attacks%20on%20TCP-IP/2.%20Packet%20Sniffing%20and%20Spoofing/2.3%20Fully-automated%20Traceroute.md)
 
 | 8 | [Sniffing and-then Spoofing: Capturing ICMP Echo Requests and automatically generating spoofed Echo Replies to impersonate the destination](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/edit/main/Network%20security%3A%20Attacks%20on%20TCP-IP/2.%20Packet%20Sniffing%20and%20Spoofing/2.4%20Sniffing%20and-then%20Spoofing)
-
-### 🦈 Wireshark Packet Analysis
-
-| # | Labs |
-
-| 1 | [Getting Started](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/1.%20Getting%20Started.md)
-
-| 2 | [Basic HTTP GET/Response](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/2.%20Basic%20HTTP%20GET%20Response%20Interaction.md) 
-
-| 3 | [Conditional GET/Response to check if a Cached File has changed](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/3.%20Conditional%20GET%20Response.md) 
-
-| 4 | [ Analyzing HTTP GET Requests and TCP Packet Flow](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/4.%20Retrieving%20Long%20Documents.md)
-
-| 5 | [How a Browser Loads a Web Page: Analyzing HTTP GET Requests](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/5.%20HTML%20with%20Embedded%20Objects.md)
-
-| 6 | [Understanding HTTP 401 Authentication and Basic Authorization](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/6.%20HTTP%20Authentication.md)
-
-| 7 | [Analyzing DNS Traffic](https://github.com/cap1gu4raRT/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Wireshark%20packet%20sniffer/7.%20DNS%20Lab.md)
