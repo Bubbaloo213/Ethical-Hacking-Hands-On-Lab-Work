@@ -31,13 +31,13 @@ Offensive and defensive security labs completed in isolated, authorized environm
 
 #### Packet Sniffing and Spoofing Labs
 
-| 5 | [Packet Sniffing and Spoofing]
+| 5 | [Sniffing: Capturing network packets using Scapy.](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security:%20Attacks%20on%20TCP-IP/2.%20Packet%20Sniffing%20and%20Spoofing/2.1%20Sniffing:%20Capturing%20network%20packets%20using%20Scapy..md)
 
-| 6 | [Spoofing ICMP Packets]
+| 6 | [Spoofing: Creating packets with fake source IP addresses](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security:%20Attacks%20on%20TCP-IP/2.%20Packet%20Sniffing%20and%20Spoofing/2.2%20Spoofing:%20Creating%20ICMP%20packets%20with%20fake%20source%20IP%20addresses.md)
 
-| 7 | [Fully-automated Traceroute]
+| 7 | [Fully-Automated Traceroute: Using Scapy to automatically identify the routers that packets pass through to reach their destination](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/blob/main/Network%20security:%20Attacks%20on%20TCP-IP/2.%20Packet%20Sniffing%20and%20Spoofing/2.3%20Fully-automated%20Traceroute.md)
 
-| 8 | [Sniffing and-then Spoofing]
+| 8 | [Sniffing and-then Spoofing: Capturing ICMP Echo Requests and automatically generating spoofed Echo Replies to impersonate the destination](https://github.com/Bubbaloo213/Ethical-Hacking-Hands-On-Lab-Work/edit/main/Network%20security%3A%20Attacks%20on%20TCP-IP/2.%20Packet%20Sniffing%20and%20Spoofing/2.4%20Sniffing%20and-then%20Spoofing)
 
 ### 🦈 Wireshark Packet Analysis
 
